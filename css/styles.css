@@ -1,4 +1,4 @@
-/* Basic styles */
+/* #region  Basic styles*/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -16,7 +16,9 @@ a {
   text-decoration: none;
 }
 
-/* Common styles */
+/* #endregion */
+
+/* #region  Common styles*/
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -55,7 +57,9 @@ a {
   letter-spacing: 0.02em;
 }
 
-/* Header */
+/* #endregion */
+
+/* #region Header */
 
 .page-header .part {
   color: #2e2f42;
@@ -87,9 +91,10 @@ a {
   color: #404bbf;
 }
 
-/* Main */
+/* #endregion */
 
-/* Section hero */
+/* #region Hero*/
+
 .section-promo {
   background-color: #2e2f42;
 }
@@ -114,8 +119,9 @@ a {
 .btn:focus {
   background-color: #404bbf;
 }
+/* #endregion */
 
-/* Section team */
+/* #region Team */
 
 .team {
   background-color: #f4f4fd;
@@ -133,7 +139,9 @@ a {
   text-align: center;
 }
 
-/* Footer */
+/* #endregion */
+
+/* #region Footer */
 
 .page-footer {
   background-color: #2e2f42;
@@ -148,3 +156,5 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* #endregion */
